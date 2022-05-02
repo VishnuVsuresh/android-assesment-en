@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="4dp"
+    android:id="@+id/card"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    android:layout_height="wrap_content">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:id="@+id/iv_cat"
+            android:background="@color/cardview_shadow_start_color"
+            android:layout_height="150dp"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv_fact"
+            android:gravity="start"
+            tools:text="fact"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:id="@+id/tv_date"
+            android:gravity="start"
+            android:textSize="12dp"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+
+</com.google.android.material.card.MaterialCardView>
